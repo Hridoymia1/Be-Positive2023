@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header-styles */
+.header {
+    background-image: url(images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height: 1000px;
+    width: 100%;
+}
+
+.header-info {
+    margin-top: 12%;
+    margin-left: 50%;
+    margin-right: 200px;
+    width: 100%;
+    text-align: right;
+}
+
+.header-title {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.header-desciption {
+    margin: 20px 0;
+    color: #4f4944;
+    font-size: 55px;
+}
+
+.btn-primary {
+    padding: 16px 24px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: chocolate;
+    border-radius: 7px;
+    border: 0;
+    color: #fff
+}
+
+/*main-style */
+.main {
+    margin: 100px 16vw;
+    align-items: center;
+    font-family: "Gill Sans", sans-serif;
+    display: flex;
+
+}
+
+.main-section {
+    margin-left: 220;
+
+}
+
+.main-title {
+    margin-bottom: 20px;
+    font-size: 55px;
+    font-weight: 900;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.main-discription {
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-size: 35px;
+
+}
+
+.point>p {
+    font-size: 18px;
+    padding-top: 5px;
+
+}
+
+/*plans style */
+
+.plans-section {
+    display: flex;
+    gap: 8%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.section-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.plans-section>div {
+    text-align: center;
+}
+
+.plans-section>div>h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px 0;
+}
+
+.plans-section>div>p {
+    color: #444343;
+    font-size: 22px;
+    font-family: "Lexend", sans-serif;
+    font-weight: bold;
+
+}
+
+
+
+.banner-section {
+    margin: 150px 24px;
+    padding-top: 5px;
+    width: 1100px;
+    height: 300px;
+    background-image: url(images/watch.png), url(images/gradient2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+
+}
+
+/*--banner style--*/
+.banner-title {
+    margin: 30px 0 12px 60px;
+    color: whitesmoke;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.btn-secondary {
+    background-color: white;
+    border-radius: 7px;
+    border: 0;
+    font-family: "Gill Sans", sans-serif;
+    color: chocolate;
+    font-size: 20px;
+    font-weight: 700;
+    height: 70px;
+    margin-left: 70px;
+    padding: 20px 25px;
+    width: 170px;
+}
+
+
+/*---Footer style----*/
+
+.footer {
+    background-color: #151414;
+    color: white;
+    display: flex;
+    font-family: "Gill Sans", sans-serif;
+    height: 500px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.footer-section {
+    font-size: 20px;
+    margin-left: 15vw;
+    padding-top: 100px;
+    width: 599px;
+}
+
+.footer-title {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.footer-section>p {
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-section>img {
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.subs-section {
+    color: white;
+    font-family: "Lexend", sans-serif;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.subs-input {
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    height: 64px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 325px;
+}
+
+.btn-subs {
+    margin-left: 0;
+}
+
+/*--Project Complete--*/
